@@ -20,4 +20,5 @@ export function initRouter(app: App<Element>): void {
 }
 
 // 主页路径，默认使用菜单第一个有效路径，配置后使用此路径
-export const HOME_PAGE_PATH = ''
+// 当前默认首页设置为根路径 /，即 BlogHome 页面
+export const HOME_PAGE_PATH = '/'
